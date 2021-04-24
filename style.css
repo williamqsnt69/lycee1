@@ -1,0 +1,345 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+.first-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 1px;
+}
+
+.menu-page {
+  position: fixed;
+  z-index: 2;
+  top: 5%;
+  left: 26%;
+  height: 10%;
+  background-color: transparent;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-page a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bolder;
+}
+
+.menu-page a:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.first-page h1 {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  font-size: 6em;
+  color: black;
+}
+
+.first-page-down {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+}
+
+.ent img:hover {
+    box-shadow : 0px 4px 17px rgba(0, 0, 0, 0.8);
+    transform:translateY(-5px);
+}
+
+.page-contain {
+  position: absolute;
+  top: 900px;
+  width: 100%;
+  height: 600px;
+  background-color: darkslategray;
+}
+
+.menu-after {
+  opacity: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0%;
+  left: 0%;
+  height: 10%;
+  background-color: #FFE642;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-after a{
+    text-decoration : none;
+}
+
+.changebackground {
+    transition : 0.5s;
+  opacity: 1;
+}
+
+.page-contain2 {
+  position: absolute;
+  top: 1500px;
+  height: 1200px;
+  width: 100%;
+  background-color: #f9f6ef;
+}
+
+.title {
+    opacity : 0;
+}
+.title-opacity {
+    opacity : 1;
+    transition : 1s;
+}
+
+.actus {
+    position : absolute ;
+    width : 90%;
+    height : 60%;
+    bottom : 150px;
+    margin-left : auto;
+    margin-right :auto;
+    left : 5%;
+}
+
+.blocs1 {
+    position : absolute; 
+    width: 35%;
+    height : 45%;
+}
+
+.blocs3 {
+    position : absolute;
+    width : 28%;
+    height : 45%; 
+    right : 0px;
+}
+
+.blocs2 {
+    position : absolute; 
+    width : 28%;
+    height : 45%; 
+    right : 32.5%;
+}
+
+.blocs4 {
+    position : absolute ; 
+    width : 55%; 
+    height : 45%; 
+    bottom : 2%;
+}
+
+.blocs5 {
+    position : absolute;
+    width : 40%; 
+    height : 45%;
+    bottom : 2%;
+    right : 0px;
+}
+
+
+
+.actu1-label {
+    position : absolute;
+    width : 97.8%;
+    height : 30%;
+    bottom : 0px;
+    background-color : white;
+}
+
+.blocs1:hover {
+    box-shadow: 0px 4px 17px rgba(0,0,0,0.5);
+    transform: translateY(-15px);
+}
+
+.actu2-label {
+    position : absolute;
+    width : 100%;
+    height : 30%;
+    bottom : 0px;
+    background-color : white;
+}
+
+.blocs2:hover {
+    box-shadow: 0px 4px 17px rgba(0,0,0,0.5);
+    transform: translateY(-15px);
+}
+
+.actu3-label {
+    position : absolute;
+    width : 100%;
+    height : 30%;
+    bottom : 0px;
+    background-color : white;
+}
+
+.blocs3:hover {
+    box-shadow: 0px 4px 17px rgba(0,0,0,0.5);
+    transform: translateY(-15px);
+
+}
+
+.actu4-label {
+    position : absolute;
+    width : 100%;
+    height : 30%;
+    bottom : 0px;
+    background-color : white;
+}
+.blocs4:hover {
+    box-shadow: 0px 4px 17px rgba(0,0,0,0.5);
+    transform: translateY(-15px);
+}
+
+.actu5-label {
+    position : absolute;
+    width : 100%;
+    height : 30%;
+    bottom : 0px;
+    background-color : white;
+}
+
+.blocs5:hover {
+    box-shadow: 0px 4px 17px rgba(0,0,0,0.5);
+    transform: translateY(-15px);
+}
+
+.page-contain2 button {
+    position : absolute;
+    bottom : 3%;
+    left : 38%;
+    border : none;
+    width : 400px;
+    height : 80px;
+    background-color : #FFE642;
+}
+
+.page-contain2 button:hover {
+    background-color : gold;
+    transition : 0.5s;
+}
+
+.page-contain3 {
+    position: absolute;
+    top: 2700px;
+    width: 100%;
+    height: 800px;
+    background-color: darkslategray;
+}
+
+.page-contain3 h1 {
+    font-size : 80px;
+    color : #f9f6ef;
+    text-align: center;
+}
+
+
+
+.agora-label {
+    width : 250px;
+    height : 60px; 
+    background-color : #f9f6ef;
+    position : absolute;
+}
+
+.agora{
+    position :absolute;
+    width : 250px;
+    height : 180px;
+    right : 25%;
+    top : 30%
+}
+
+.agora:hover {
+    box-shadow : 0px 4px 17px rgba(0, 0, 0, 0.8);
+    transform:translateY(-5px)
+
+}
+
+.youtube {
+    position :absolute;
+    width : 250px;
+    height : 180px;
+    right : 25%;
+    top : 65%
+}
+
+.youtube-label { 
+     width : 250px;
+    height : 60px; 
+    background-color : #f9f6ef;
+    position : absolute;
+}
+.youtube:hover {
+    box-shadow : 0px 4px 17px rgba(0, 0, 0, 0.8);
+    transform:translateY(-5px)
+}
+.cine {
+    position :absolute;
+    width : 250px;
+    height : 180px;
+    right : 3%;
+    top : 65%
+}
+.cine-label {
+    width : 250px;
+    height : 60px; 
+    background-color : #f9f6ef;
+    position : absolute;
+}
+
+.cine:hover {
+    box-shadow : 0px 4px 17px rgba(0, 0, 0, 0.8);
+    transform:translateY(-5px)
+}
+
+.avisiter {
+    opacity : 0;
+}
+
+.avisiter-opacity {
+    opacity : 1;
+    transition : 0.5s;
+}
+
+.ligne {
+    position : absolute;
+    top : 32%;
+    left : 53%;
+    width : 2px;
+    height : 60%;
+    background-color : white;
+}
+.ligne2 {
+    position : absolute;
+    top : 32%;
+    left : 24%;
+    width : 2px;
+    height : 60%;
+    background-color : white;
+
+}
+
+.page-contain4 {
+    position: absolute;
+    top: 3500px;
+    height: 1200px;
+    width: 100%;
+    background-color: #f9f6ef;
+}
